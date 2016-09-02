@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'kairosdb-python-client',
-  packages = ['kairosdbclient'],
+  packages = ['kairosdbclient','kairosdbclient.rest','kairosdbclient.telnet'],
   version = '0.1',
   description = 'Python client for KairosDB',
   author = 'Erol Merdanović',
